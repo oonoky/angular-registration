@@ -1,0 +1,138 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "almaty"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address": {
+        "area": "astana"
+      }
+    },
+    {
+      "id": "Jhon1",
+      "name": "John Doe",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "almaty"
+      }
+    },
+    {
+      "id": "testuser2",
+      "name": "test user",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "almaty"
+      }
+    },
+    {
+      "id": "Gulnaz",
+      "name": "Gulnaz",
+      "password": "123456",
+      "email": "gulnaz@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "customer1",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 2,
+      "name": "customer2",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 3,
+      "name": "customer3",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 4,
+      "name": "customer4",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 5,
+      "name": "customer5",
+      "Creditlimit": 1000
+    }
+  ]
+}
